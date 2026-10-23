@@ -1,0 +1,134 @@
+ <escape><!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моё портфолио</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            color: #222;
+        }
+
+        header {
+            background-color: #263b5e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #192b47;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #dce8fa;
+        }
+
+        .hero h2 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 25px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        .works {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            flex: 1;
+            min-width: 200px;
+            padding: 20px;
+            background-color: #edf2fa;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #263b5e;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Моё портфолио</h1>
+        <p>Начинающий веб-разработчик</p>
+    </header>
+
+    <nav>
+        <a href="#about">Обо мне</a>
+        <a href="#works">Мои работы</a>
+        <a href="#contacts">Контакты</a>
+    </nav>
+
+    <div class="hero">
+        <h2>Привет! Добро пожаловать на мой сайт</h2>
+        <p>Я изучаю HTML, CSS и создание веб-сайтов.</p>
+    </div>
+
+    <section id="about">
+        <h2>Обо мне</h2>
+        <p>Меня зовут Али. Я учусь создавать сайты и осваиваю основы веб-разработки.</p>
+    </section>
+
+    <section id="works">
+        <h2>Мои работы</h2>
+        <div class="works">
+            <div class="card">
+                <h3>Мой первый сайт</h3>
+                <p>Простая веб-страница, созданная с помощью HTML и CSS.</p>
+            </div>
+
+            <div class="card">
+                <h3>Учебный проект</h3>
+                <p>Практика оформления страниц и расположения элементов.</p>
+            </div>
+
+            <div class="card">
+                <h3>Портфолио</h3>
+                <p>Сайт для демонстрации моих учебных работ.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts">
+        <h2>Контакты</h2>
+        <p>Здесь можно указать свои контактные данные.</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Моё портфолио</p>
+    </footer>
+
+</body>
+</html></escape>
